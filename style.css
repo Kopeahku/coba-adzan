@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+h1 {
+    color: #007bff;
+    margin-bottom: 5px;
+}
+
+#waktu-sholat p {
+    font-size: 1.2em;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+}
+
+#waktu-sholat p:last-child {
+    border-bottom: none;
+}
+
+#waktu-sholat span {
+    font-weight: bold;
+    color: #28a745;
+}
+
+#status-sholat {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    font-style: italic;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Sholat & Adzan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Waktu Sholat</h1>
+        <p id="lokasi-display">Memuat lokasi...</p>
+        <p id="tanggal-display"></p>
+
+        <div id="waktu-sholat">
+            <p>Subuh: <span id="subuh">--:--</span></p>
+            <p>Dzuhur: <span id="dzuhur">--:--</span></p>
+            <p>Ashar: <span id="ashar">--:--</span></p>
+            <p>Maghrib: <span id="maghrib">--:--</span></p>
+            <p>Isya: <span id="isya">--:--</span></p>
+        </div>
+
+        <div id="status-sholat">
+            Waktu sholat berikutnya: <span id="next-sholat">Memuat...</span>
+        </div>
+    </div>
+    
+    <audio id="adzan-audio" src="adzan.mp3" preload="auto"></audio> 
+    <script src="script.js"></script>
+</body>
+</html>
